@@ -5,7 +5,7 @@ pipeline {
 
         stage ("Getting Souce Code From Git") {
             steps {
-                git branch: 'develop', url: 'https://github.com/saikirangude/Git-repo2.git'
+                git branch: 'develop', url: 'https://github.com/Sai-Test1208/Sai-Test2408-Repo2.git'
             }
         }
 

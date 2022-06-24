@@ -30,7 +30,7 @@ pipeline {
 //             # Excluded as we do not have a common domain module, some domains are duplicated across modules and this causes a false positive
 // #             sonar.exclusions: '**/domain/*.java'
 //                 }
-            }
+//             }
 	}
 			
         stage ("Compiling The Source Code") {

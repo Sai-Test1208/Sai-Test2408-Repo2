@@ -31,7 +31,7 @@ pipeline {
 // #             sonar.exclusions: '**/domain/*.java'
 //                 }
 //             }
-	}
+// 	}
 			
         stage ("Compiling The Source Code") {
             steps {

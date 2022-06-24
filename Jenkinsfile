@@ -12,7 +12,7 @@ pipeline {
         stage ("SonarQube analysis") {
             steps {
         sonarqube_server_name: "SonarScanner_Server"
-//         sonar_runnner_tools_name: "sonarscanner"
+        sonar_runnner_tools_name: "sonarscanner"
         full_scan: "yes"
          sonar_conf:
           - sonar.projectKey: gitmvn1

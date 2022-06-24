@@ -16,7 +16,7 @@ pipeline {
         full_scan: "yes"
          sonar_conf:
 //             sonar.projectKey: GITMVN1
-            sonar.projectName: github_maven1
+//             sonar.projectName: github_maven1
             sonar.projectVersion: 1.0.0
             sonar.sources: src
             sonar.language: java

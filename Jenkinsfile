@@ -15,7 +15,7 @@ pipeline {
         sonar_runnner_tools_name: "sonarscanner"
         full_scan: "yes"
          sonar_conf:
-          - sonar.projectKey: gitmvn1
+            sonar.projectKey: gitmvn1
             sonar.projectName: github_maven1
             sonar.projectVersion: 1.0.0
             sonar.sources: src

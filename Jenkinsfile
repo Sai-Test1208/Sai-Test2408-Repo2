@@ -14,7 +14,7 @@ pipeline {
         sonarqube_server_name: "SonarScanner_Server"
         sonar_runnner_tools_name: "sonarscanner"
         full_scan: "yes"
-         sonar_conf:
+//          sonar_conf:
 //             sonar.projectKey: GITMVN1
 //             sonar.projectName: github_maven1
 //             sonar.projectVersion: 1.0.0
@@ -30,8 +30,8 @@ pipeline {
 //             # Excluded as we do not have a common domain module, some domains are duplicated across modules and this causes a false positive
 // #             sonar.exclusions: '**/domain/*.java'
 //                 }
-//             }
-// 	}
+            }
+	}
 			
         stage ("Compiling The Source Code") {
             steps {
